@@ -158,8 +158,8 @@ footer {
 }
 
 .participants-list {
-  list-style-type: disc;
-  margin-left: 20px;
+  list-style-type: none;
+  margin-left: 0;
   margin-bottom: 0;
   padding-left: 0;
 }
@@ -168,6 +168,9 @@ footer {
   margin-bottom: 4px;
   color: #222;
   font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .no-participants {
